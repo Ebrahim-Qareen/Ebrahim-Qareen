@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Ebrahim Mohamed — SOC Analyst, Detection Engineer, Cybersecurity Instructor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111C33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E2A45" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="16" fill="url(#grid)" opacity="0.6"/>
+  <rect x="0" y="0" width="6" height="260" rx="3" fill="url(#accent)"/>
+
+  <!-- terminal block -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8">
+    <text x="60" y="64"><tspan fill="#22D3EE">ebrahim@soc</tspan><tspan fill="#64748B">:~$ </tspan><tspan fill="#E2E8F0">whoami</tspan></text>
+    <text x="60" y="88" fill="#E2E8F0">Ebrahim Mohamed</text>
+    <text x="60" y="124"><tspan fill="#22D3EE">ebrahim@soc</tspan><tspan fill="#64748B">:~$ </tspan><tspan fill="#E2E8F0">cat roles.txt</tspan></text>
+    <text x="60" y="148" fill="#E2E8F0">SOC Analyst  ·  Detection Engineer  ·  Cybersecurity Instructor</text>
+    <text x="60" y="184"><tspan fill="#22D3EE">ebrahim@soc</tspan><tspan fill="#64748B">:~$ </tspan><tspan fill="#E2E8F0">tail -f /var/ossec/logs/alerts/alerts.json | grep -c "rule.level":1[2-5]</tspan></text>
+    <text x="60" y="208" fill="#4ADE80">detections written, tuned and taught  —  Wazuh · Sigma · ATT&amp;CK</text>
+  </g>
+
+  <!-- right-side shield -->
+  <g transform="translate(1010,50)">
+    <path d="M80 0 L150 26 V90 C150 140 115 172 80 186 C45 172 10 140 10 90 V26 Z" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M80 22 L132 41 V90 C132 128 106 152 80 163 C54 152 28 128 28 90 V41 Z" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
+    <polyline points="52,96 72,116 112,72" fill="none" stroke="#4ADE80" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="60" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#64748B">Cairo, Egypt   ·   github.com/Ebrahim-Qareen</text>
+</svg>
