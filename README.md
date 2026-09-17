@@ -30,7 +30,7 @@ I work on both sides of the SOC: during the day I triage alerts, write and tune 
 ## 🧰 Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kali,linux,ubuntu,debian,windows,bash,powershell,py,docker,git,github,vscode,cloudflare,azure,aws,nginx,apache,mysql,elasticsearch,grafana,regex,md&perline=11" alt="Tech stack">
+  <img src="https://skillicons.dev/icons?i=kali,linux,ubuntu,debian,windows,bash,powershell,py,docker,git,github,vscode,cloudflare,azure,aws,nginx,html,css,js,mysql,elasticsearch,grafana,regex,md&perline=12" alt="Tech stack">
 </p>
 
 ### SIEM & detection
